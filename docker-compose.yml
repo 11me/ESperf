@@ -1,0 +1,7 @@
+version: '3.1'
+
+services:
+  esperf:
+    build: .
+    volumes:
+      - ./output:/usr/share/app/output
